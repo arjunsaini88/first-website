@@ -1,0 +1,42 @@
+/* Page styling */
+body {
+    background-color: rgb(79, 171, 229);
+    color: rgb(3, 28, 124);
+    max-width: 600px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: white;
+}
+
+/* Links (buttons) */
+a {
+    display: block;
+    padding: 12px;
+    margin: 10px 0;
+    text-align: center;
+    background-color: rgb(23, 52, 87);
+    color: rgb(241, 236, 236);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+a:hover {
+    background-color: rgb(30, 90, 140);
+    transform: scale(1.05);
+}
+
+/* Paragraph styling */
+p {
+    text-align: center;
+    margin-top: 20px;
+    color: #ebf0f2;
+    font-size: 14px;
+    line-height: 1.6;
+}
